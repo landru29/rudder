@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DefaulftInput Primary="1">
+  <Version Num="1238" />
+  <Device DeviceName="Leonardo Rudder Pedals" GUID="00000000-0000-0000-0000-000000000000" ProductID="8036">
+    <Axes>
+      <Axis AxisName="X" AxisSensitivy="0" AxisDeadZone="0" />
+      <Axis AxisName="Y" AxisSensitivy="0" AxisDeadZone="0" />
+      <Axis AxisName="Z" AxisSensitivy="1" AxisDeadZone="2" />
+    </Axes>
+    <Context ContextName="PLANE">
+      <Action ActionName="KEY_BRAKES_LEFT" Flag="4">
+        <Primary>
+          <KEY Information="Axis X">1026</KEY>
+        </Primary>
+      </Action>
+      <Action ActionName="KEY_BRAKES_RIGHT" Flag="4">
+        <Primary>
+          <KEY Information="Axis Y">1042</KEY>
+        </Primary>
+      </Action>
+      <Action ActionName="KEY_AXIS_RUDDER_SET" Flag="4">
+        <Primary>
+          <KEY Information="Rotation Z">802</KEY>
+        </Primary>
+      </Action>
+    </Context>
+  </Device>
+</DefaulftInput>
